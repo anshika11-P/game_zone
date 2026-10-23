@@ -1,33 +1,16 @@
-# PROJECT 4: GAMEZONE
+# React + Vite
 
-## 1. Project Introduction
-GameZone is an interactive gaming website developed using React.js. It allows users to play different mini-games through a simple and user-friendly interface.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 2. Technologies Used
-- React.js
-- HTML
-- CSS
-- JavaScript
-- Vite
-- React Router
+Currently, two official plugins are available:
 
-## 3. Features
-- Interactive home page
-- Memory Match game
-- Number Guessing game
-- Reaction Speed game
-- Puzzle Challenge game
-- Player name input
-- Leaderboard to display scores
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 4. Project Objective
-The main objective of GameZone is to create an entertaining website where users can play mini-games and improve their problem-solving and reaction skills.
+## React Compiler
 
-## 5. Learning Outcomes
-Through this project, I learned React components, state management using `useState`, page navigation using React Router, CSS styling, and interactive website development.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 6. Testing
-I tested the website navigation and game features to check whether the games and leaderboard worked correctly.
+## Expanding the ESLint configuration
 
-## 7. Conclusion
-GameZone helped me improve my frontend development skills and understand how to build an
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
